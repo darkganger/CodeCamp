@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReviewCss2</title>
+
+    <style>
+        table,th ,td {
+            border: 3px solid lightblue;
+            border-collapse: collapse;
+        }
+        table {
+            width: 100%;
+            margin: 0 auto;
+        }
+        p {
+  			font-size: 1.00em;
+		}
+        body {
+  			font-size: 120%;
+		}
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+               
+               <th><h3><u>property และ value คืออะไรแตกต่างกันอย่างไร</h3></th></u>
+               <th><h3><u>property ที่สอนใน precamp มีกี่กลุ่มอะไรบ้าง</h3></th></u>
+               <th><h3><u>value unit มีกี่ประเภทอะไรบ้าง แต่ละประเภทคืออะไร</h3></th></u>
+                 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <p>property คือคุณสมบัติ ส่วน Value คือค่าของคุณสมบัติ ทั้งสองอย่างจะต้องใช้ร่วมกันใน CSS </p>
+                </td>
+                <td>
+                    <ol>
+                        <p>มี 5 กลุ่ม</p>
+                        <li>property for content</li>
+                        <li>property for border</li>
+                        <li>property for padding</li>
+                        <li>property for margin</li>
+                        <li>property for element</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul>
+                        <p>มี 2 ประเภท</p>
+                        <li>
+                            <ul>
+                                <p>Absolute lenghts คือ ค่าที่แน่นอน</p>
+                                <li>cm เซนติเมตร</li>
+                                <li>mm มิลลิเมตร</li>
+                                <li>in นิ้ว</li>
+                                <li>px พิกเซล 1/96 นิ้ว</li>
+                                <li>pt พอยท์ 1/72 นิ้ว</li>
+                                <li>pc พิคาล 1/12 นิ้ว</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <p>Relative lenghts คือ ค่าที่เกี่ยวกับความสัมพันธ์</p>
+                                <li>em เท่าขนาดฟอนต์ของ element</li>
+                                <li>ex เท่าความสูงของฟอนต์ของ element</li>
+                                <li>ch ความกว้างของตัวหนังสือใน parent element</li>
+                                <li>rem เท่าขนาดของ root element</li>
+                                <li>vh เปอร์เซนต์ความสูงของหน้าจอ</li>
+                                <li>vw เปอร์เซนต์ความกว้างของหน้าจอ</li>
+                                <li>vmin เปอร์เซนต์ของ view point ต่ำสุด</li>
+                                <li>vmax เปอร์เซนต์ของ view point สูงสุด</li>
+                                <li>% เปอร์เซนต์ของ parent element</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
